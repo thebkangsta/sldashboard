@@ -1,0 +1,202 @@
+body {
+   background-color: #f9f9f9;
+}
+
+.topNav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    height: 80px;
+    background-color: #6d6d6d;
+}
+
+.topNav img {
+    float: left;
+    padding-top: 15px;
+}
+
+.navButtons {
+    float: right;
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+}
+
+.navButtons>li {
+    text-align: center;
+    height: 80px;
+    width: 140px;
+    position: relative;
+    display: block;
+    float: left;
+    border-left: 2px solid #e0e0e0;
+}
+
+.navButtons>li.last {
+    border-right: 2px solid #e0e0e0;
+}
+
+.navButtons>li.active {
+    background-color: #e0e0e0;
+}
+
+.navButtons>li.active>a {
+    color: #6d6d6d;
+}
+
+.navButtons>li>a {
+    height: 80px;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+    font-size: 17;
+    color: #e0e0e0;
+}
+
+.navButtons>li>a:hover {
+    background-color: #e0e0e0;
+    color: #6d6d6d;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all .1s linear;
+    -ms-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+.navButtons .fa {
+    line-height: 10px;
+    display: block;
+    font-size: 1.5em;
+}
+
+
+.dashboard {
+    padding: 15px 40px;
+}
+
+.mainContent {
+    padding-top: 110px;
+}
+
+#mainchart{
+    background-color: white;
+}
+
+.charttop {
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 15px;
+    display: block;
+    height: 40px;
+    background-color: #6D6D6D;
+}
+
+.overallcontainer {
+    height: 170px;
+    margin-bottom: 25px;
+    background-color: #FFFFFF;
+}
+
+.overallcontainer div {
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    font-size: 30px;
+    color: #3366CC;
+}
+
+.overallcontainer div p {
+    text-align: center;
+    margin: auto;
+    font-size: 28px;
+    color: #6D6D6D;
+}
+
+.overallcontainer .col-md-2 {
+    width: 20%!important;
+}
+
+.mainchartcontainer {
+    float: left;
+    width: 69%;
+}
+
+.topofmainchart {
+    width: 100%;
+    position: relative;
+    padding-left: 15px;
+    bottom: -15px;
+}
+
+select#chartselector{
+    z-index: 1000;
+    position: absolute;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid #111;
+    width: 130px;
+    height: 40px;
+    padding-left: 5px;
+}
+
+select#dateselector{
+    z-index: 1000;
+    position: absolute;
+    font-weight: bold;
+    background: transparent;
+    padding-left: 5px;
+    margin-left: 150px;
+    border: 1px solid #111;
+    width: 130px;
+    height: 40px;
+}
+
+div#datepicker {
+    z-index: 1000;
+    position: absolute;
+    font-weight: bold;
+    background: transparent;
+    margin-left: 300px;
+    width: 130px;
+    height: 40px;
+}
+
+#datepicker input {
+    color: black;
+    padding-left: 10px!important;
+    border: 1px solid #111;
+    width: 130px;
+    height: 40px;
+}
+
+#datepicker span {
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
+}
+
+#piechart{
+    display: block;
+    background-color: white;
+}
+
+.piechartcontainer {
+    width: 29%;
+    float: right;
+}
+
+.pieinfo {
+    float: right;
+    display: block;
+    z-index: 1000;
+    position: relative;
+    padding-right: 15px;
+    top: -100;
+    font-size: 25;
+}
